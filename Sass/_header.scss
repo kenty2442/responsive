@@ -1,9 +1,12 @@
 header {
+    width: 100%;
     display: flex;
     justify-content:space-between;
     padding: 20px;
     color:#fff;
-    background-color: black;
+    background-color:inherit;
+    position: absolute;
+    z-index:20;
 
     nav {
         width: 45%;
