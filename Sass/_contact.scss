@@ -13,10 +13,18 @@
     }
 }
 
-.copntact-wrap{
+.contact-wrap{
     width: 600px;
     max-width: 600px;
     margin:0 auto;
+
+    @include tab {
+        width: 80%;
+    }
+
+    @include sp {
+        width: 100%;
+    }
 }
 
 input,select,textarea{
@@ -60,7 +68,7 @@ textarea{
         height:15px;
 
     }
-    %:nth-of-type(4){
+    &:nth-of-type(4){
         margin-bottom:0;
     }
 }

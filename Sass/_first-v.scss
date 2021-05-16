@@ -20,6 +20,12 @@
     transform: translate(-50%,-50%);
     height:30%;
     text-align: center;
+
+    @include sp{
+        height:50%;
+        top: 65%;
+        transform: translate(-40%, 0);
+    }
 }
 
 .catch {
